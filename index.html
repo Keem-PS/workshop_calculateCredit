@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Credit Interest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>โปรแกรมคำนวณดอกเบี้ยแบบลดต้นลดดอก</h1>
+    </div>
+
+    <form>
+        <lable>จำนวนเงินกู้ (บาท)</lable><br>
+        <input type="text" id="principle"><br>
+        <lable>อัตราดอกเบี้ย (% / ปี)</lable><br>
+        <input type="text" id="interestRate"><br>
+        <lable>ระยะเวลาผ่อน (เดือน)</lable><br>
+        <input type="text" id="term"><br>
+
+        <input type="button" value="คำนวณดอกเบี้ย" id="calcurate-btn">
+        <input type="button" value="Export PDF" id="calcurateExport-btn">
+    </form>
+    <br>
+
+    <table id="resultTable">
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
