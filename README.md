@@ -1,3 +1,3 @@
 # workshop_calculateCredit
 
-Learning HTML, CSS, Javascript for work Web Developer 
+Learning HTML5, CSS3, Javascript for work Web Developer
